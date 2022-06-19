@@ -37,18 +37,7 @@ function App() {
     fetchQuotes(quoteDBUrl)
   }, [quoteDBUrl])
   
-  const changeQuoteAndAuthor0 = () => {
-    setQuote("Life lmao");
-    setAuthor("Schopenhauer")
-  }
-  const changeQuoteAndAuthor1 = () => {
-    setQuote("Yes");
-    setAuthor("Hemingway")
-  }
-  const changeQuoteAndAuthor2 = () => {
-    setQuote("Imposter is sus");
-    setAuthor("Obama")
-  }
+ 
 
   const getRandomQuote = () => {
     let randomInteger = Math.floor(quotesArray.length*Math.random())
@@ -62,9 +51,7 @@ function App() {
   }
 
 
-  //const OURquotesArray = [{"quote": "Schopenhauer", author:"Life lmao"}, 
-  //{quote: "Yes", author:"Hemingway"}, {quote: "Imposter is sus", author:"Obama"}, 
-  //{quote: "Everything vibrates, nothing is static", author:"Kybalion"}]
+  
   
   return (
     <div className="App">
