@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  
+}
+
+.App-header{
+  background-color: rgb(6, 33, 56);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color:rgb(241, 240, 240)
+}
+
+#quote-box{
+  padding: 25px;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  font-family:Geneva, Sans;
+  font-style: Italic;
+  font-weight: bold;
+}
+
+#author{
+  text-align: end;
+  font-style: normal;
+  font-weight: normal;
+  font-family:'Times New Roman', Times, serif
+}
+
+#tweet-quote{
+  border-radius: 10px;
+  float: left;
+  padding-left: 5%;
+  font-style: normal;
+  
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  min-height: 50px;
+  
+}
+
+#new-quote{
+  float: right;
+  color: white;
+  border-radius: 10%;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+}
+
